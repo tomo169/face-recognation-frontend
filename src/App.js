@@ -102,8 +102,7 @@ loadUser = (data) => {
         this.FaceBox (this.calculateFaceLocation(response))
       })
       .catch(err => console.log(err));
-       
-  }
+    }
 
   onRouteChange = (route) => {
     if (route === 'signout') {
